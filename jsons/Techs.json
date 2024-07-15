@@ -487,22 +487,28 @@
         "techs" : [
             {
                 "name" : "Biology",
-                "row" : 1
+                "row" : 1,
+                "prerequisites" : ["Archaeology"]
             },{
                 "name" : "Earth Science",
-                "row" : 3
+                "row" : 3,
+                "prerequisites" : ["Phase Magic", "Scientific Theory"]
             },{
                 "name" : "Electricity",
-                "row" : 4
+                "row" : 4,
+                "prerequisites" : ["Scientific Theory", "Mana Storage"]
             },{
                 "name" : "Air Conditioning",
-                "row" : 6
+                "row" : 6,
+                "prerequisites" : ["Industrialization"]
             },{
                 "name" : "Steam Power",
-                "row" : 7
+                "row" : 7,
+                "prerequisites" : ["Industrialization", "Rifling"]
             },{
                 "name" : "Cryptology",
-                "row" : 9
+                "row" : 9,
+                "prerequisites" : ["Military Science", "Fertilizer"]
             }
         ]
     },{
@@ -532,7 +538,8 @@
                 "row" : 7
             },{
                 "name" : "Industrial Artifacts",
-                "row" : 8
+                "row" : 8,
+                "prerequisites" : ["Industrial Products"]
             },{
                 "name" : "Communication Magic",
                 "row" : 9
