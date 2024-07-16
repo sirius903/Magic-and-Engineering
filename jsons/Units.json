@@ -1480,20 +1480,6 @@
         "uniques": ["Can build [Motte and Bailey] improvements on tiles"],
         "attackSound": "metalhit"
     },
-    {
-        "name": "Koa",
-        "replaces": "Longswordsman",
-        "uniqueTo": "Polynesia",
-        "unitType": "Sword",
-        "movement": 2,
-        "strength": 23,
-        "cost": 120,
-        "requiredTech": "Steel",
-        "promotions": ["Amphibious"],
-        "upgradesTo": "Musketman",
-        "obsoleteTech": "Rifling",
-        "attackSound": "metalhit"
-    },
 
     // Rennaisance Era
     {

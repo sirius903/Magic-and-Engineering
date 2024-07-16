@@ -196,7 +196,7 @@
             },{
                 "name" : "Drama and Poetry",
                 "row" : 3,
-                "prerequisites" : ["Philosophy", "Alphabet"]
+                "prerequisites" : ["Philosophy"]
             },{
                 "name" : "Monarchy",
                 "row" : 5,
@@ -520,32 +520,40 @@
         "techs" : [
             {
                 "name" : "Refining",
-                "row" : 1
+                "row" : 1,
+                "prerequisites" : ["Biology"]
             },{
                 "name" : "Sanitation",
-                "row" : 2
+                "row" : 2,
+                "prerequisites" : ["Biology"]
             },{
                 "name" : "Electromagnetism",
-                "row" : 3
+                "row" : 3,
+                "prerequisites" : ["Earth Science", "Electricity"]
             },{
                 "name" : "Battery",
-                "row" : 5
+                "row" : 5,
+                "prerequisites" : ["Electricity"]
             },{
                 "name" : "Levitation",
-                "row" : 6
+                "row" : 6,
+                "prerequisites" : ["Air Conditioning", "Steam Power"]
             },{
                 "name" : "Steam Turbine",
-                "row" : 7
+                "row" : 7,
+                "prerequisites" : ["Steam Power"]
             },{
                 "name" : "Industrial Artifacts",
                 "row" : 8,
                 "prerequisites" : ["Industrial Products"]
             },{
                 "name" : "Communication Magic",
-                "row" : 9
+                "row" : 9,
+                "prerequisites" : ["Cryptology"]
             },{
                 "name" : "Dynamite",
-                "row" : 10
+                "row" : 10,
+                "prerequisites" : ["Cryptology"]
             }
         ]
     },{
@@ -557,31 +565,40 @@
         "techs" : [
             {
                 "name" : "Biotechnology",
-                "row" : 1
+                "row" : 1,
+                "prerequisites" : ["Refining", "Sanitation"]
             },{
                 "name" : "Refrigeration",
-                "row" : 2
+                "row" : 2,
+                "prerequisites" : ["Sanitation", "Electromagnetism"]
             },{
                 "name" : "Telegraph",
-                "row" : 3
+                "row" : 3,
+                "prerequisites" : ["Electromagnetism"]
             },{
                 "name" : "Transistor",
-                "row" : 4
+                "row" : 4,
+                "prerequisites" : ["Electromagnetism", "Battery"]
             },{
                 "name" : "Replaceable Parts",
-                "row" : 5
+                "row" : 5,
+                "prerequisites" : ["Battery"]
             },{
                 "name" : "Scale Magic",
-                "row" : 6
+                "row" : 6,
+                "prerequisites" : ["Battery", "Levitation"]
             },{
                 "name" : "Flight",
-                "row" : 7
+                "row" : 7,
+                "prerequisites" : ["Levitation", "Steam Turbine"]
             },{
                 "name" : "Railroads",
-                "row" : 8
+                "row" : 8,
+                "prerequisites" : ["Steam Turbine", "Industrial Artifacts"]
             },{
                 "name" : "Warhead",
-                "row" : 10
+                "row" : 10,
+                "prerequisites" : ["Dynamite"]
             }
         ]
     },{
@@ -593,25 +610,32 @@
         "techs" : [
             {
                 "name" : "Plastics",
-                "row" : 1
+                "row" : 1,
+                "prerequisites" : ["Biotechnology", "Refrigeration"]
             },{
                 "name" : "Radio",
-                "row" : 3
+                "row" : 3,
+                "prerequisites" : ["Telegraph"]
             },{
                 "name" : "Electronics",
-                "row" : 5
-            },{
-                "name" : "Ballistics",
-                "row" : 6
+                "row" : 5,
+                "prerequisites" : ["Transistor", "Replaceable Parts", "Scale Magic"]
             },{
                 "name" : "Carpet Bombing",
-                "row" : 7
+                "row" : 6,
+                "prerequisites" : ["Scale Magic", "Flight"]
+            },{
+                "name" : "Ballistics",
+                "row" : 7,
+                "prerequisites" : ["Flight"]
             },{
                 "name" : "Combustion",
-                "row" : 8
+                "row" : 8,
+                "prerequisites" : ["Railroads"]
             },{
                 "name" : "Information Security",
-                "row" : 9
+                "row" : 9,
+                "prerequisites" : ["Communication Magic"]
             }
         ]
     },{
@@ -623,25 +647,32 @@
         "techs" : [
             {
                 "name" : "Composites",
-                "row" : 2
+                "row" : 2,
+                "prerequisites" : ["Plastics"]
             },{
                 "name" : "Mass Media",
-                "row" : 3
+                "row" : 3,
+                "prerequisites" : ["Radio"]
             },{
                 "name" : "Atomic Theory",
-                "row" : 4
+                "row" : 4,
+                "prerequisites" : ["Radio", "Electronics"]
             },{
                 "name" : "Storage Battery",
-                "row" : 5
-            },{
-                "name" : "Jet Engine",
-                "row" : 6
+                "row" : 5,
+                "prerequisites" : ["Electronics"]
             },{
                 "name" : "Saturation Bombing",
-                "row" : 7
+                "row" : 6,
+                "prerequisites" : ["Carpet Bombing"]
+            },{
+                "name" : "Jet Engine",
+                "row" : 7,
+                "prerequisites" : ["Ballistics" ,"Combustion"]
             },{
                 "name" : "Missile",
-                "row" : 10
+                "row" : 10,
+                "prerequisites" : ["Warhead", "Information Security"]
             }
         ]
     },{
@@ -653,25 +684,32 @@
         "techs" : [
             {
                 "name" : "Cubic Equation",
-                "row" : 1
+                "row" : 1,
+                "prerequisites" : ["Composites"]
             },{
                 "name" : "Penicillin",
-                "row" : 2
+                "row" : 2,
+                "prerequisites" : ["Composites", "Mass Media", "Atomic Theory"]
             },{
                 "name" : "Nuclear Physics",
-                "row" : 4
+                "row" : 4,
+                "prerequisites" : ["Atomic Theory"]
             },{
                 "name" : "EMP",
-                "row" : 5
+                "row" : 5,
+                "prerequisites" : ["Storage Battery"]
             },{
                 "name" : "Radar",
-                "row" : 6
+                "row" : 6,
+                "prerequisites" : ["Storage Battery", "Saturation Bombing", "Jet Engine"]
             },{
                 "name" : "Combined Arms",
-                "row" : 8
+                "row" : 8,
+                "prerequisites" : ["Jet Engine", "Missile"]
             },{
                 "name" : "Guided Magic",
-                "row" : 9
+                "row" : 9,
+                "prerequisites" : ["Missile"]
             }
         ]
     },{
@@ -683,25 +721,32 @@
         "techs" : [
             {
                 "name" : "Tesseract",
-                "row" : 1
+                "row" : 1,
+                "prerequisites" : ["Cubic Equation"]
             },{
                 "name" : "Ecology",
-                "row" : 2
+                "row" : 2,
+                "prerequisites" : ["Penicillin"]
             },{
                 "name": "Pharmaceuticals",
-                "row": 3
+                "row": 3,
+                "prerequisites" : ["Penicillin"]
             },{
                 "name" : "Nuclear Fission",
-                "row" : 4
+                "row" : 4,
+                "prerequisites" : ["Nuclear Physics"]
             },{
                 "name" : "Anti-Magic",
-                "row" : 5
+                "row" : 5,
+                "prerequisites" : ["Nuclear Physics", "EMP", "Radar"]
             },{
                 "name" : "Rocketry",
-                "row" : 6
+                "row" : 6,
+                "prerequisites" : ["Radar"]
             },{
                 "name" : "Computers",
-                "row" : 8
+                "row" : 8,
+                "prerequisites" : ["Radar", "Combined Arms", "Guided Magic"]
             }
         ]
     },{
@@ -713,25 +758,32 @@
         "techs" : [
             {
                 "name" : "Superdimension",
-                "row" : 1
+                "row" : 1,
+                "prerequisites" : ["Tesseract"]
             },{
                 "name" : "Telecommunications",
-                "row" : 2
+                "row" : 2,
+                "prerequisites" : ["Ecology"]
             },{
                 "name" : "Renewable",
-                "row" : 3
-            },{
-                "name" : "Anti-Gravity",
-                "row" : 5
+                "row" : 3,
+                "prerequisites" : ["Ecology", "Pharmaceuticals"]
             },{
                 "name" : "Time Dilation",
-                "row" : 6
+                "row" : 5,
+                "prerequisites" : ["Nuclear Fission", "Anti-Magic"]
+            },{
+                "name" : "Anti-Gravity",
+                "row" : 6,
+                "prerequisites" : ["Anti-Magic", "Rocketry"]
             },{
                 "name" : "Quantum Computer",
-                "row" : 8
+                "row" : 8,
+                "prerequisites" : ["Computers"]
             },{
                 "name" : "Automatic Operation",
-                "row" : 9
+                "row" : 9,
+                "prerequisites" : ["Computers"]
             }
         ]
     },{
@@ -743,25 +795,32 @@
         "techs" : [
             {
                 "name" : "Information Network",
-                "row" : 2
+                "row" : 2,
+                "prerequisites" : ["Superdimension", "Telecommunications"]
             },{
                 "name" : "Mobile Tactics",
-                "row" : 3
+                "row" : 3,
+                "prerequisites" : ["Telecommunications", "Renewable", "Time Dilation"]
             },{
                 "name" : "Advanced Ballistics",
-                "row" : 5
+                "row" : 5,
+                "prerequisites" : ["Time Dilation", "Anti-Gravity"]
             },{
                 "name" : "Satellites",
-                "row" : 6
+                "row" : 6,
+                "prerequisites" : ["Anti-Gravity"]
             },{
                 "name" : "Robotics",
-                "row" : 7
+                "row" : 7,
+                "prerequisites" : ["Quantum Computer"]
             },{
                 "name" : "Lasers",
-                "row" : 8
+                "row" : 8,
+                "prerequisites" : ["Quantum Computer"]
             },{
                 "name" : "Artificial Intelligence",
-                "row" : 9
+                "row" : 9,
+                "prerequisites" : ["Quantum Computer", "Automatic Operation"]
             }
         ]
     },{
@@ -773,22 +832,28 @@
         "techs" : [
             {
                 "name" : "Internet",
-                "row" : 2
+                "row" : 2,
+                "prerequisites" : ["Information Network", "Mobile Tactics"]
             },{
                 "name" : "Particle Physics",
-                "row" : 4
+                "row" : 4,
+                "prerequisites" : ["Mobile Tactics", "Advanced Ballistics"]
             },{
                 "name" : "Nuclear Fusion",
-                "row" : 5
+                "row" : 5,
+                "prerequisites" : ["Advanced Ballistics"]
             },{
                 "name" : "Eyes of Perforation",
-                "row" : 6
+                "row" : 6,
+                "prerequisites" : ["Advanced Ballistics", "Satellites", "Robotics"]
             },{
                 "name" : "Nanotechnology",
-                "row" : 7
+                "row" : 7,
+                "prerequisites" : ["Robotics", "Lasers"]
             },{
                 "name" : "Stealth",
-                "row" : 8
+                "row" : 8,
+                "prerequisites" : ["Lasers"]
             }
         ]
     },{
@@ -800,25 +865,32 @@
         "techs" : [
             {
                 "name" : "New World",
-                "row" : 1
+                "row" : 1,
+                "prerequisites" : ["Internet"]
             },{
                 "name" : "Globalization",
-                "row" : 2
+                "row" : 2,
+                "prerequisites" : ["Internet"]
             },{
                 "name" : "Antimatter",
-                "row" : 4
+                "row" : 4,
+                "prerequisites" : ["Particle Physics", "Nuclear Fusion"]
             },{
                 "name" : "Retrogression",
-                "row" : 5
+                "row" : 5,
+                "prerequisites" : ["Nuclear Fusion"]
             },{
                 "name" : "Akashic Records",
-                "row" : 7
+                "row" : 7,
+                "prerequisites" : ["Eyes of Perforation", "Nanotechnology"]
             },{
                 "name" : "Reverse Dimension",
-                "row" : 8
+                "row" : 8,
+                "prerequisites" : ["Nanotechnology", "Stealth"]
             },{
                 "name" : "Alpha",
-                "row" : 9
+                "row" : 9,
+                "prerequisites" : ["Artificial Intelligence"]
             }
         ]
     },{
@@ -830,7 +902,12 @@
         "techs" : [
             {
                 "name" : "Future Tech",
-                "row" : 6
+                "row" : 6,
+                "prerequisites" : ["Antimatter", "Retrogression", "Akashic Records", "Reverse Dimension"]
+            },{
+                "name" : "Genesis",
+                "row" : 9,
+                "prerequisites" : ["Reverse Dimension", "Alpha"]
             }
         ]
     }
