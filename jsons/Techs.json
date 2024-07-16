@@ -27,7 +27,8 @@
             },{
                 "name" : "Agriculture",
                 "row" : 4,
-                "prerequisites" : ["Stone Tools"]
+                "prerequisites" : ["Stone Tools"],
+                "quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster"
             },{
                 "name" : "Hunting",
                 "row" : 7,
@@ -35,7 +36,8 @@
             },{
                 "name" : "Mining",
                 "row" : 9,
-                "prerequisites" : ["Stone Tools"]
+                "prerequisites" : ["Stone Tools"],
+                "quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
             }
         ]
     },{
@@ -48,7 +50,8 @@
             {
                 "name" : "Pottery",
                 "row" : 2,
-                "prerequisites" : ["Agriculture"]
+                "prerequisites" : ["Agriculture"],
+                "quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
             },{
                 "name" : "Gathering",
                 "row" : 4,
@@ -56,11 +59,13 @@
             },{
                 "name" : "Animal Husbandry",
                 "row" : 5,
-                "prerequisites" : ["Agriculture", "Hunting"]
+                "prerequisites" : ["Agriculture", "Hunting"],
+                "quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
             },{
                 "name" : "Archery",
                 "row" : 7,
-                "prerequisites" : ["Hunting"]
+                "prerequisites" : ["Hunting"],
+                "quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
             },{
                 "name" : "Mana Stone",
                 "row" : 8,
@@ -77,35 +82,43 @@
             {
                 "name" : "Sailing",
                 "row" : 1,
-                "prerequisites" : ["Fishing", "Pottery"]
+                "prerequisites" : ["Fishing", "Pottery"],
+                "quote": "'He who commands the sea has command of everything.' - Themistocles"
             },{
                 "name" : "Calendar",
                 "row" : 2,
-                "prerequisites" : ["Pottery"]
+                "prerequisites" : ["Pottery"],
+                "quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
             },{
                 "name" : "Writing",
                 "row" : 3,
-                "prerequisites" : ["Pottery"]
+                "prerequisites" : ["Pottery"],
+                "quote": "'He who destroys a good book kills reason itself.' - John Milton"
             },{
                 "name" : "Herbology",
                 "row" : 4,
-                "prerequisites" : ["Gathering"]
+                "prerequisites" : ["Gathering"],
+                "quote": "'There are no incurable diseases — only the lack of will. There are no worthless herbs — only the lack of knowledge.' - Avicenna"
             },{
                 "name" : "Trapping",
                 "row" : 5,
-                "prerequisites" : ["Gathering", "Animal Husbandry"]
+                "prerequisites" : ["Gathering", "Animal Husbandry"],
+                "quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
             },{
                 "name" : "The Wheel",
                 "row" : 7,
-                "prerequisites" : ["Archery"]
+                "prerequisites" : ["Archery"],
+                "quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
             },{
                 "name" : "Masonry",
                 "row" : 9,
-                "prerequisites" : ["Mining"]
+                "prerequisites" : ["Mining"],
+                "quote": "'How happy are those whose walls already rise!' - Virgil"
             },{
                 "name" : "Bronze Working",
                 "row" : 10,
-                "prerequisites" : ["Mining"]
+                "prerequisites" : ["Mining"],
+                "quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
             }
         ]
     },{
@@ -118,11 +131,13 @@
             {
                 "name" : "Irrigation",
                 "row" : 2,
-                "prerequisites" : ["Calendar"]
+                "prerequisites" : ["Calendar"],
+                "quote": "'Irrigation of the land with seawater desalinated by fusion power is ancient. It's called rain.' - Mike McAlary"
             },{
                 "name" : "Alphabet",
                 "row" : 3,
-                "prerequisites" : ["Writing"]
+                "prerequisites" : ["Writing"],
+                "quote": "'Human society, the world, and the whole of mankind is to be found in the alphabet.' - Victor Hugo"
             },{
                 "name" : "Awaken",
                 "row" : 4,
@@ -130,11 +145,13 @@
             },{
                 "name" : "Horseback Riding",
                 "row" : 5,
-                "prerequisites" : ["Trapping", "The Wheel"]
+                "prerequisites" : ["Trapping", "The Wheel"],
+                "quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
             },{
                 "name" : "Mathematics",
                 "row" : 7,
-                "prerequisites" : ["The Wheel"]
+                "prerequisites" : ["The Wheel"],
+                "quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
             },{
                 "name" : "Primitive Magic",
                 "row" : 8,
@@ -142,7 +159,8 @@
             },{
                 "name" : "Construction",
                 "row" : 9,
-                "prerequisites" : ["Masonry"]
+                "prerequisites" : ["Masonry"],
+                "quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
             }
         ]
     },{
@@ -155,11 +173,13 @@
             {
                 "name" : "Optics",
                 "row" : 1,
-                "prerequisites" : ["Sailing"]
+                "prerequisites" : ["Sailing"],
+                "quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
             },{
                 "name" : "Philosophy",
                 "row" : 2,
-                "prerequisites" : ["Irrigation", "Alphabet"]
+                "prerequisites" : ["Irrigation", "Alphabet"],
+                "quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
             },{
                 "name" : "Divine",
                 "row" : 4,
@@ -167,7 +187,8 @@
             },{
                 "name" : "Currency",
                 "row" : 6,
-                "prerequisites" : ["Mathematics"]
+                "prerequisites" : ["Mathematics"],
+                "quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
             },{
                 "name" : "Magic",
                 "row" : 7,
@@ -175,11 +196,13 @@
             },{
                 "name" : "Engineering",
                 "row" : 8,
-                "prerequisites" : ["Primitive Magic", "Construction"]
+                "prerequisites" : ["Primitive Magic", "Construction"],
+                "quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
             },{
                 "name" : "Iron Working",
                 "row" : 10,
-                "prerequisites" : ["Bronze Working"]
+                "prerequisites" : ["Bronze Working"],
+                "quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
             }
         ]
     },{
@@ -196,11 +219,13 @@
             },{
                 "name" : "Drama and Poetry",
                 "row" : 3,
-                "prerequisites" : ["Philosophy"]
+                "prerequisites" : ["Philosophy"],
+                "quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
             },{
                 "name" : "Monarchy",
                 "row" : 5,
-                "prerequisites" : ["Divine", "Horseback Riding"]
+                "prerequisites" : ["Divine", "Horseback Riding"],
+                "quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
             },{
                 "name" : "Code of Laws",
                 "row" : 6,
@@ -212,7 +237,8 @@
             },{
                 "name" : "Metal Casting",
                 "row" : 9,
-                "prerequisites" : ["Engineering", "Iron Working"]
+                "prerequisites" : ["Engineering", "Iron Working"],
+                "quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
             }
         ]
     },{
@@ -229,15 +255,18 @@
             },{
                 "name" : "Theology",
                 "row" : 4,
-                "prerequisites" : ["Drama and Poetry", "Divine"]
+                "prerequisites" : ["Drama and Poetry", "Divine"],
+                "quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
             },{
                 "name" : "Civil Service",
                 "row" : 5,
-                "prerequisites" : ["Monarchy", "Code of Laws"]
+                "prerequisites" : ["Monarchy", "Code of Laws"],
+                "quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
             },{
                 "name" : "Guilds",
                 "row" : 7,
-                "prerequisites" : ["Code of Laws", "Artifacts"]
+                "prerequisites" : ["Code of Laws", "Artifacts"],
+                "quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
             },{
                 "name" : "Invention",
                 "row" : 8,
@@ -254,7 +283,8 @@
             {
                 "name" : "Compass",
                 "row" : 1,
-                "prerequisites" : ["Shipbuilding"]
+                "prerequisites" : ["Shipbuilding"],
+                "quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
             },{
                 "name" : "Aesthetics",
                 "row" : 3,
@@ -262,7 +292,8 @@
             },{
                 "name" : "Education",
                 "row" : 4,
-                "prerequisites" : ["Theology", "Civil Service"]
+                "prerequisites" : ["Theology", "Civil Service"],
+                "uniques": ["Enables conversion of city production to [Science]"]
             },{
                 "name" : "Equivalent Exchange",
                 "row" : 5,
@@ -270,15 +301,18 @@
             },{
                 "name" : "Chivalry",
                 "row" : 6,
-                "prerequisites" : ["Civil Service", "Guilds"]
+                "prerequisites" : ["Civil Service", "Guilds"],
+                "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
             },{
                 "name" : "Machinery",
                 "row" : 8,
-                "prerequisites" : ["Guilds", "Invention"]
+                "prerequisites" : ["Guilds", "Invention"],
+                "quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
             },{
                 "name" : "Steel",
                 "row" : 10,
-                "prerequisites" : ["Metal Casting"]
+                "prerequisites" : ["Metal Casting"],
+                "quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
             }
         ]
     },{
@@ -307,7 +341,8 @@
             },{
                 "name" : "Castles",
                 "row" : 7,
-                "prerequisites" : ["Chivalry", "Machinery"]
+                "prerequisites" : ["Chivalry", "Machinery"],
+                "quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
             },{
                 "name" : "Paper",
                 "row" : 8,
@@ -315,7 +350,8 @@
             },{
                 "name" : "Physics",
                 "row" : 9,
-                "prerequisites" : ["Machinery", "Steel"]
+                "prerequisites" : ["Machinery", "Steel"],
+                "quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
             }
         ]
     },{
